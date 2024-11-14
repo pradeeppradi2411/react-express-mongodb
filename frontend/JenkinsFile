@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/pradeeppradi2411/Jenkins-Zero-To-Hero.git'
+        git branch: 'main', url: 'https://github.com/pradeeppradi2411/'react-express-mongodb'
       }
     }
    stage('Build and Push Docker Image') {
