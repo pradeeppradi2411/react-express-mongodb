@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: pradi2411/backend:3
+        image: pradi2411/frontend:10
         ports:
-        - containerPort: 4000
+        - containerPort: 3000
